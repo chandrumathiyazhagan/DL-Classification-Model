@@ -149,6 +149,8 @@ print("\nName: CHANDRU M")
 print("Register No: 212222230026\n")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
+
+torch.save(model.state_dict(), 'chandru212222230026.pth')
 ```
 
 ### Dataset Information
